@@ -58,7 +58,7 @@ contract MultiSigWallet {
         _;
     }
     // For the authorization of minimum 60 percent which is 3 / 5 , we need 5 owners
-    // no. of confirmations should be lies 3 and 5 , because minimum is 60 percent.
+    // no. of confirmations should be lies between 3 and 5 , thus the minimum authorization is 60 percent.
     constructor(address[] memory _owners, uint _numConfirmationsRequired) {
         require(_owners.length == 5, "owners are less then 5 ");
         require(
