@@ -1,2 +1,1 @@
-# Hashstack_assignment
-I have completed this assignment by creating a multi signature wallet with minimum 60 percent authorization .
+I have created a multi signature wallet with minimum 60 percent authorization .
